@@ -216,17 +216,8 @@
           <version>1.6.8</version>
           <configuration>
             <container>
-              <containerId>${cargo.maven.containerId}</containerId>
-              <zipUrlInstaller>
-                <url>${cargo.maven.containerUrl}</url>
-              </zipUrlInstaller>
+              <containerType>jetty</containerType>
             </container>
-            <daemon>
-              <properties>
-                <cargo.daemon.url>http://localhost:18000</cargo.daemon.url>
-                <cargo.daemon.handleid>${project.artifactId}</cargo.daemon.handleid>
-              </properties>
-            </daemon>
           </configuration>
         </plugin>
         <plugin>
