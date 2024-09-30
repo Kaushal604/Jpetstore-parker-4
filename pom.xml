@@ -226,5 +226,7 @@
             </daemon>
           </configuration>
         </plugin>
-        <plugin>
-          <group
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>
